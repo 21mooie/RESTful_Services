@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
   },
   "author": "Muata Nkosi",
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.3",
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "mongoose": "^5.0.15"
   },
   "devDependencies": {
     "gulp-nodemon": "^2.2.1"
